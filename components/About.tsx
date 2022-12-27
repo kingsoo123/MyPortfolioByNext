@@ -26,11 +26,11 @@ function About({}: Props) {
         <Image
           src={kings}
           alt="imggg"
-          className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+          className="-mb-60 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
         />
       </motion.div>
-      <div className="space-y-10 px-0 md:px-10 pt-20">
-        <h4 className="text-4xl font-semibold">
+      <div className="space-y-10 px-0 md:px-10 p-10 snap-x snap-mandatory">
+        <h4 className="text-4xl font-semibold mt-60">
           Here is a{" "}
           <span className="underline decoration-[#F7AB0A]/50 ">little</span>{" "}
           background
