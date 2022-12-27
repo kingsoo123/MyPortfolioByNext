@@ -56,7 +56,10 @@ export default function Header({}: Props) {
           fgColor="gray"
           bgColor="transparent"
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
+        <p
+          className="uppercase hidden md:inline-flex text-sm text-gray-400"
+          onClick={() => window.open("http://www.gmail.com")}
+        >
           Get In Touch
         </p>
       </motion.div>
