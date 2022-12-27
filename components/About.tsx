@@ -36,16 +36,14 @@ function About({}: Props) {
           background
         </h4>
         <p className="text-base">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-          necessitatibus adipisci iste aliquid reiciendis voluptates asperiores
-          rem, sequi quis natus impedit fugit quasi veniam error, maxime hic in
-          quibusdam suscipit! Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Optio necessitatibus adipisci iste aliquid reiciendis voluptates
-          asperiores rem, sequi quis natus impedit fugit quasi veniam error,
-          maxime hic in quibusdam suscipit! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Optio necessitatibus adipisci iste
-          aliquid reiciendis voluptates asperiores rem, sequi quis natus impedit
-          fugit quasi veniam error, maxime hic in quibusdam suscipit!
+          Result driven Front-end Developer, proven to provide insight into
+          business application, from architecture to implementation, design to
+          testing. Product-minded with 5 years’ experience integrating latest
+          Front-end skills to optimize Client-side systems. Am a software
+          developer with a passion for building great apps that impact people,
+          am driven by the aim to get results and make the most out of limited
+          resources at my disposal. Am looking for opportunities that I can
+          leverage on to help me grow as a developer.
         </p>
       </div>
     </motion.div>

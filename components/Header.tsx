@@ -24,19 +24,12 @@ export default function Header({}: Props) {
         className="flex flex-row items-center"
       >
         <SocialIcon
-          url="https://twitter.com/jaketrent"
+          url="https://www.linkedin.com/in/kingsley-onyelo/"
           fgColor="gray"
           bgColor="transparent"
         />
-
         <SocialIcon
-          url="https://twitter.com/jaketrent"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-
-        <SocialIcon
-          url="https://twitter.com/jaketrent"
+          url="https://twitter.com/watch_kinsoo"
           fgColor="gray"
           bgColor="transparent"
         />
