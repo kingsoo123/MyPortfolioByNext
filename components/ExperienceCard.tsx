@@ -30,7 +30,7 @@ function ExperienceCard({
         <Image
           src={pics}
           alt="imggg"
-          className=" md:mb-0 w-32 h-32 rounded-full object-cover object-center xl:w-[200px] xl:h-[200px]"
+          className="md:mb-0 w-32 h-32 rounded-full object-cover object-center xl:w-[200px] xl:h-[200px]"
         />
       </motion.div>
       <div className="px-0 md:px-10">
