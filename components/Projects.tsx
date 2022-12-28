@@ -66,7 +66,7 @@ function Projects({}: Props) {
             <Image
               src={project.pics}
               alt="imggg"
-              className="border border-gray-500 w-54 h-54 object-cover object-center md:w-58 md:h-58 xl:w-30 xl:h-42 filter group-hover:grayscale transition duration:300 ease-in-out"
+              className="border border-gray-500 w-54 h-54 object-cover object-center md:w-58 md:h-58 xl:w-[400px] xl:h-[230px] filter group-hover:grayscale transition duration:300 ease-in-out"
             />
             <div className="space-y-10 px-10 md:px-10 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
