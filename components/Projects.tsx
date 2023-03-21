@@ -77,7 +77,7 @@ function Projects({}: Props) {
               </h4>
 
               <Link
-                href="https://www.voguepay.com/"
+                href={project.url}
                 className="cursor-pointer text-sm text-green-300"
               >
                 {project.url}

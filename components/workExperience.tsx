@@ -11,6 +11,10 @@ import airgate from "../assets/airgate.png";
 
 type Props = {};
 
+const DemoComp = () => {
+  return <p>hello world</p>;
+};
+
 function WorkExperience({}: Props) {
   const experiences = [
     {
@@ -113,6 +117,7 @@ function WorkExperience({}: Props) {
         <ExperienceCard />
         <ExperienceCard /> */}
       </div>
+      <DemoComp />
     </motion.div>
   );
 }
