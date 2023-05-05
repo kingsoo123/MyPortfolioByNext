@@ -6,7 +6,7 @@ import css3 from "../assets/css3.png";
 import fig from "../assets/fig.png";
 import trell from "../assets/trell.png";
 import gitss from "../assets/git.png";
-
+import web3 from "../assets/web3.jpeg";
 import jira from "../assets/jira.png";
 import rdx from "../assets/rdx.png";
 import jss from "../assets/jss.jpeg";
@@ -23,48 +23,53 @@ function Skills({}: Props) {
       level: "80%",
     },
     {
-      id: 1,
+      id: 2,
       pics: css3,
       level: "80%",
     },
     {
-      id: 1,
+      id: 3,
       pics: jss,
       level: "80%",
     },
     {
-      id: 1,
+      id: 4,
       pics: tss,
       level: "70%",
     },
     {
-      id: 1,
+      id: 5,
       pics: wind,
       level: "70%",
     },
     {
-      id: 1,
+      id: 6,
       pics: rdx,
       level: "80%",
     },
     {
-      id: 1,
+      id: 7,
       pics: fig,
       level: "50%",
     },
     {
-      id: 1,
+      id: 8,
       pics: trell,
       level: "80%",
     },
     {
-      id: 1,
+      id: 9,
       pics: jira,
       level: "80%",
     },
     {
-      id: 1,
+      id: 10,
       pics: gitss,
+      level: "80%",
+    },
+    {
+      id: 11,
+      pics: web3,
       level: "80%",
     },
   ];

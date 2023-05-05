@@ -6,6 +6,7 @@ import bluecube from "../assets/bluecube.png";
 import airvend from "../assets/airvend.png";
 import flexit from "../assets/flexit.png";
 import skillpaddy from "../assets/skillpaddy.png";
+import krypt from "../assets/krypt.png";
 
 type Props = {};
 
@@ -44,11 +45,19 @@ function Projects({}: Props) {
       pics: flexit,
     },
     {
-      id: 4,
+      id: 5,
       name: "Skillpaddy",
       url: "https://skillpaddy.com/",
       about: "Looking to kickstart your journey in Tech but don’t know how?",
       pics: skillpaddy,
+    },
+    {
+      id: 6,
+      name: "KryptPush",
+      url: "https://kryptpusha.netlify.app/",
+      about:
+        "This is a web3 project that allows ethereum holders to transafer eth to any wallet in the world. This app tracks the transactions and also keep counts of all transfer done",
+      pics: krypt,
     },
   ];
 
