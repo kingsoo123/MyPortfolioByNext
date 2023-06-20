@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import valleypay from "../assets/valleypay.png";
 import bluecube from "../assets/bluecube.png";
-import airvend from "../assets/airvend.png";
-import flexit from "../assets/flexit.png";
-import skillpaddy from "../assets/skillpaddy.png";
+// import airvend from "../assets/airvend.png";
+// import flexit from "../assets/flexit.png";
+import ajola from "../assets/ajola.png";
 import krypt from "../assets/krypt.png";
 import wasmer from "../assets/wasmer.png";
 
@@ -27,7 +27,7 @@ function Projects({}: Props) {
       id: 2,
       name: "Fingo Africa",
       url: "https://play.google.com/store/search?q=fingo+africa&c=apps",
-      about: "Simplified payment app",
+      about: "Simplified financial service for ambitious Africans",
       pics: fingos,
     },
 
@@ -48,13 +48,14 @@ function Projects({}: Props) {
       pics: bluecube,
     },
 
-    // {
-    //   id: 5,
-    //   name: "Skillpaddy",
-    //   url: "https://skillpaddy.com/",
-    //   about: "Looking to kickstart your journey in Tech but don’t know how?",
-    //   pics: skillpaddy,
-    // },
+    {
+      id: 5,
+      name: "Ajola",
+      url: "https://play.google.com/store/apps/details?id=com.rckstrt.ajolla",
+      about:
+        "Connect with friends, family and people who share the same interests as you and receive donations for projects. Communicate privately, watch your favorite content, buy and sell items or just spend time with your community. On Ajolla, supporting the projects of people who matter most is easy. Build great projects with family, friends, and fans.",
+      pics: ajola,
+    },
     {
       id: 6,
       name: "KryptPush",
