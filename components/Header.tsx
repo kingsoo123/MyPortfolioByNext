@@ -1,6 +1,7 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {};
 
@@ -56,12 +57,12 @@ export default function Header({}: Props) {
           fgColor="gray"
           bgColor="transparent"
         />
-        <p
+        <Link
+          href="#contact"
           className="uppercase hidden md:inline-flex text-sm text-gray-400"
-          onClick={() => window.open("http://www.gmail.com")}
         >
           Get In Touch
-        </p>
+        </Link>
       </motion.div>
     </header>
   );
