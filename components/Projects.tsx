@@ -36,7 +36,7 @@ function Projects({}: Props) {
       name: "Wasmer",
       url: "https://wasmerr.netlify.app/",
       about:
-        "Experience a fast and easy payment process; work with well-documented APIs that simplify the payment gateway development process.",
+        "Serve sandboxed WebAssembly apps anywhere through a single runtime and do in days what others do in months.",
       pics: wasmer,
     },
     {
