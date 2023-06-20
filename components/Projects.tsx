@@ -1,12 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import vogue from "../assets/vogueWeb.png";
+import valleypay from "../assets/valleypay.png";
 import bluecube from "../assets/bluecube.png";
 import airvend from "../assets/airvend.png";
 import flexit from "../assets/flexit.png";
 import skillpaddy from "../assets/skillpaddy.png";
 import krypt from "../assets/krypt.png";
+import wasmer from "../assets/wasmer.png";
 
 type Props = {};
 
@@ -18,7 +19,7 @@ function Projects({}: Props) {
       url: "http://valleypay.com.ng/",
       about:
         "VoguePay makes it easy to collect payments from local customers, even for one-off or variable amounts.",
-      pics: vogue,
+      pics: valleypay,
     },
     {
       id: 2,
@@ -30,11 +31,11 @@ function Projects({}: Props) {
     },
     {
       id: 3,
-      name: "Airgate",
-      url: "https://airgate.ng/",
+      name: "Wasmer",
+      url: "https://wasmerr.netlify.app/",
       about:
         "Experience a fast and easy payment process; work with well-documented APIs that simplify the payment gateway development process.",
-      pics: airvend,
+      pics: wasmer,
     },
     {
       id: 4,
