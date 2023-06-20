@@ -9,6 +9,8 @@ import skillpaddy from "../assets/skillpaddy.png";
 import krypt from "../assets/krypt.png";
 import wasmer from "../assets/wasmer.png";
 
+import fingos from "../assets/fingos.png";
+
 type Props = {};
 
 function Projects({}: Props) {
@@ -23,12 +25,12 @@ function Projects({}: Props) {
     },
     {
       id: 2,
-      name: "Bluecube",
-      about: "Bluecube let's you search for images of all type easily",
-
-      url: "https://image-finder-mu.vercel.app/",
-      pics: bluecube,
+      name: "Fingo Africa",
+      url: "https://play.google.com/store/search?q=fingo+africa&c=apps",
+      about: "Simplified payment app",
+      pics: fingos,
     },
+
     {
       id: 3,
       name: "Wasmer",
@@ -39,19 +41,20 @@ function Projects({}: Props) {
     },
     {
       id: 4,
-      name: "Flexit",
-      url: "https://flexit.africa/",
-      about:
-        "Connect with the best Tech Professionals in the Country across industries seamlessly",
-      pics: flexit,
+      name: "Bluecube",
+      about: "Bluecube let's you search for images of all type easily",
+
+      url: "https://image-finder-mu.vercel.app/",
+      pics: bluecube,
     },
-    {
-      id: 5,
-      name: "Skillpaddy",
-      url: "https://skillpaddy.com/",
-      about: "Looking to kickstart your journey in Tech but don’t know how?",
-      pics: skillpaddy,
-    },
+
+    // {
+    //   id: 5,
+    //   name: "Skillpaddy",
+    //   url: "https://skillpaddy.com/",
+    //   about: "Looking to kickstart your journey in Tech but don’t know how?",
+    //   pics: skillpaddy,
+    // },
     {
       id: 6,
       name: "KryptPush",
