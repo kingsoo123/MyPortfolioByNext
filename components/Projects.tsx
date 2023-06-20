@@ -14,8 +14,8 @@ function Projects({}: Props) {
   const projects = [
     {
       id: 1,
-      name: "Voguepay",
-      url: "https://www.voguepay.com/",
+      name: "ValleyPay",
+      url: "http://valleypay.com.ng/",
       about:
         "VoguePay makes it easy to collect payments from local customers, even for one-off or variable amounts.",
       pics: vogue,
