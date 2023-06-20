@@ -20,7 +20,7 @@ function Projects({}: Props) {
       name: "ValleyPay",
       url: "http://valleypay.com.ng/",
       about:
-        "VoguePay makes it easy to collect payments from local customers, even for one-off or variable amounts.",
+        "ValleyPay makes it easy to accept payments from local customers, even for one-off or variable amounts.",
       pics: valleypay,
     },
     {
