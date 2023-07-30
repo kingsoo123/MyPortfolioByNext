@@ -17,10 +17,10 @@ function Projects({}: Props) {
   const projects = [
     {
       id: 1,
-      name: "ValleyPay",
-      url: "http://valleypay.com.ng/",
+      name: "Transawave",
+      url: "https://transawave.com/",
       about:
-        "ValleyPay makes it easy to accept payments from local customers, even for one-off or variable amounts.",
+        "Transawave makes it easy to accept payments from local customers, even for one-off or variable amounts.",
       pics: valleypay,
     },
     {
