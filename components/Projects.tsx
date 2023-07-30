@@ -17,7 +17,7 @@ function Projects({}: Props) {
   const projects = [
     {
       id: 1,
-      name: "Transawave",
+      name: "",
       url: "https://transawave.com/",
       about:
         "Transawave makes it easy to accept payments from local customers, even for one-off or variable amounts.",
