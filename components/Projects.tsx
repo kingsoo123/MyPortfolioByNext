@@ -9,7 +9,7 @@ import ajola from "../assets/ajola.png";
 import krypt from "../assets/krypt.png";
 import wasmer from "../assets/wasmer.png";
 
-import fingos from "../assets/fingos.";
+import fingos from "../assets/fingos.png";
 
 type Props = {};
 
