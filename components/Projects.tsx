@@ -20,7 +20,7 @@ function Projects({}: Props) {
       name: "Transawave",
       url: "https://transawave.com/",
       about:
-        "Transawave makes it easy to accept payments from local customers, even for one-off or variable amounts.",
+        "Transawave makes it easy to accept payments from local customers, even for one-off or  amounts.",
       pics: valleypay,
     },
     {
