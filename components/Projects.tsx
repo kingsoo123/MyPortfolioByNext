@@ -27,7 +27,7 @@ function Projects({}: Props) {
       id: 2,
       name: "Fingo Africa",
       url: "https://play.google.com/store/search?q=fingo+africa&c=apps",
-      about: "Simplified financial service for ambitious Africans",
+      about: "Simplified financial service for ambitious ",
       pics: fingos,
     },
 
