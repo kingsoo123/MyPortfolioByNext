@@ -54,7 +54,7 @@ function Skills({}: Props) {
     },
     {
       id: 8,
-      pics: ,
+      pics: trell,
       level: "80%",
     },
     {
