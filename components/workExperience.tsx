@@ -74,7 +74,7 @@ function WorkExperience({}: Props) {
       startDate: "Sept 2022",
       endDate: " Nov 2022",
       description:
-        "This FINTECH company has branches in  and UK. I work as a frontend Lead Developer (React) developer. Involved in building an online payment service for business merchants etc.",
+        "This FINTECH company has branches in Nigeria and UK. I work as a frontend Lead Developer (React) developer. Involved in building an online payment service for business merchants etc.",
       pics: tingo,
     },
     {
