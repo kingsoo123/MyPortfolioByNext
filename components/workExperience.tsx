@@ -80,7 +80,7 @@ function WorkExperience({}: Props) {
     {
       id: 1,
       companyName: "Airvend",
-      jd: "Frontend Engineer",
+      jd: "Frontend ",
       startDate: "May 2022",
       endDate: " Oct 2022",
       description:
