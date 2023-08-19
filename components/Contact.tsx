@@ -19,10 +19,7 @@ function Contact({}: Props) {
           <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
           <p>+234 9054017119</p>
         </div>
-        <div className="flex items-center space-x-5 justify-center">
-          <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-          <p>9, Sholanke Street Fagba, Lagos Nigeria.</p>
-        </div>
+
         <div className="flex items-center space-x-5 justify-center">
           <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
           <p>@onyelok@gmail.com</p>
