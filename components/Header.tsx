@@ -61,7 +61,7 @@ export default function Header({}: Props) {
           href="#contact"
           className="uppercase hidden md:inline-flex text-sm text-gray-400"
         >
-          Get In Touch.
+          Get In .
         </Link>
       </motion.div>
     </header>
