@@ -22,7 +22,7 @@ function Contact({}: Props) {
 
         <div className="flex items-center space-x-5 justify-center">
           <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-          <p>@onyelok@.com</p>
+          <p>@onyelok@gmail.com</p>
         </div>
       </div>
     </div>
