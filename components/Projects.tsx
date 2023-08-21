@@ -33,7 +33,7 @@ function Projects({}: Props) {
 
     {
       id: 3,
-      name: "",
+      name: "Wasmer",
       url: "https://wasmerr.netlify.app/",
       about:
         "Serve sandboxed WebAssembly apps anywhere through a single runtime and do in days what others do in months.",
