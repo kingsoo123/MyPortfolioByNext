@@ -42,7 +42,7 @@ function Projects({}: Props) {
     {
       id: 4,
       name: "Bluecube",
-      about: "Bluecube let's you search for images of all type ",
+      about: "Bluecube let's you search for images of all type easily",
 
       url: "https://image-finder-mu.vercel.app/",
       pics: bluecube,
