@@ -12,7 +12,7 @@ function Contact({}: Props) {
         <h4 className="text-4xl font-semibold text-center">
           I have got just what you need.{" "}
           <span className="decoration-[#F7AB0A]/50 underline">
-            Let&apos;s talk.
+            Let&apos;s .
           </span>
         </h4>
         <div className="flex items-center space-x-5 justify-center">
