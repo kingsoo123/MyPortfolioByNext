@@ -43,7 +43,7 @@ function ExperienceCard({
           <Image src={tw} alt="imggg" className="w-10 h-10 rounded-full" />
         </div> */}
         <p className="py-5 text-gray-400">
-          Start date : {startDate} End : {endDate}
+          Start date : {startDate} End date : {endDate}
         </p>
         <ul className="list-disc space-y-2 ml-5 text-sm">
           <li>{description}</li>
