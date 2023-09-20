@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 type Props = {
-  experience: string;
+  experience: any;
   companyName: string;
   startDate: string;
   endDate: string;
