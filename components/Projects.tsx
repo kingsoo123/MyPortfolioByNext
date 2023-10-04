@@ -3,11 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import valleypay from "../assets/valleypay.png";
 import bluecube from "../assets/bluecube.png";
-// import airvend from "../assets/airvend.png";
+import airvend from "../assets/airvend.png";
 // import flexit from "../assets/flexit.png";
 import ajola from "../assets/ajola.png";
 import krypt from "../assets/krypt.png";
 import wasmer from "../assets/wasmer.png";
+import hiouspay from "../assets/Hiuospay.png";
 
 import fingos from "../assets/fingos.png";
 
@@ -21,7 +22,7 @@ function Projects({}: Props) {
       url: "https://huiospay.com/",
       about:
         "Huiospay makes it easy to accept payments from local customers, even for one-off or variable amounts.",
-      pics: valleypay,
+      pics: hiouspay,
     },
     {
       id: 2,
@@ -30,9 +31,16 @@ function Projects({}: Props) {
       about: "Simplified financial service for ambitious Africans",
       pics: fingos,
     },
-
     {
       id: 3,
+      name: "AirGate",
+      url: "https://airgate.ng/",
+      about:
+        "Experience a fast and easy payment process; work with well-documented APIs that simplify the payment gateway development process. Our B2B and B2C online payment processor empowers businesses to thrive, from simple one-page projects to complex products.",
+      pics: airvend,
+    },
+    {
+      id: 4,
       name: "Wasmer",
       url: "https://wasmerr.netlify.app/",
       about:
@@ -40,7 +48,7 @@ function Projects({}: Props) {
       pics: wasmer,
     },
     {
-      id: 4,
+      id: 5,
       name: "Bluecube",
       about: "Bluecube let's you search for images of all type easily",
 
@@ -49,7 +57,7 @@ function Projects({}: Props) {
     },
 
     {
-      id: 5,
+      id: 6,
       name: "Ajola",
       url: "https://play.google.com/store/apps/details?id=com.rckstrt.ajolla",
       about:
@@ -57,7 +65,7 @@ function Projects({}: Props) {
       pics: ajola,
     },
     {
-      id: 6,
+      id: 7,
       name: "KryptPush",
       url: "https://kryptpusha.netlify.app/",
       about:
