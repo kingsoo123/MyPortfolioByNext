@@ -9,6 +9,7 @@ import ajola from "../assets/ajola.png";
 import krypt from "../assets/krypt.png";
 import wasmer from "../assets/wasmer.png";
 import hiouspay from "../assets/Hiuospay.png";
+import vogue from "../assets/vogueWeb.png";
 
 import fingos from "../assets/fingos.png";
 
@@ -18,6 +19,14 @@ function Projects({}: Props) {
   const projects = [
     {
       id: 1,
+      name: "VoguePay",
+      url: "https://voguepay.com/",
+      about:
+        "VoguePay makes it easy to collect payments from local customers, even for one-off or variable amounts.",
+      pics: vogue,
+    },
+    {
+      id: 2,
       name: "Huiospay",
       url: "https://huiospay.com/",
       about:
@@ -25,14 +34,14 @@ function Projects({}: Props) {
       pics: hiouspay,
     },
     {
-      id: 2,
+      id: 3,
       name: "Fingo Africa",
       url: "https://play.google.com/store/search?q=fingo+africa&c=apps",
       about: "Simplified financial service for ambitious Africans",
       pics: fingos,
     },
     {
-      id: 3,
+      id: 4,
       name: "AirGate",
       url: "https://airgate.ng/",
       about:
@@ -40,7 +49,7 @@ function Projects({}: Props) {
       pics: airvend,
     },
     {
-      id: 4,
+      id: 5,
       name: "Wasmer",
       url: "https://wasmerr.netlify.app/",
       about:
@@ -48,7 +57,7 @@ function Projects({}: Props) {
       pics: wasmer,
     },
     {
-      id: 5,
+      id: 6,
       name: "Bluecube",
       about: "Bluecube let's you search for images of all type easily",
 
@@ -57,7 +66,7 @@ function Projects({}: Props) {
     },
 
     {
-      id: 6,
+      id: 7,
       name: "Ajola",
       url: "https://play.google.com/store/apps/details?id=com.rckstrt.ajolla",
       about:
@@ -65,7 +74,7 @@ function Projects({}: Props) {
       pics: ajola,
     },
     {
-      id: 7,
+      id: 8,
       name: "KryptPush",
       url: "https://kryptpusha.netlify.app/",
       about:
