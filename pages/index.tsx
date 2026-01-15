@@ -9,42 +9,37 @@ const Home = () => {
       description: "This product aims at managing user auth token to prevent security loopholes.",
       tech: ["NextJs", "Java Springboot", "Postgres"],
       link: "#",
-      rel:"noopener noreferrer"
+     
     },
     {
       title: "AccountManager",
       description: "Banking API with role-based access and secure authentication and complete customer banking flow.",
       tech: ["NextJs", "Java Springboot", "Postgres"],
       link: "https://github.com/kingsoo123/Account-manager",
-      rel:"noopener noreferrer"
     },
     {
       title: "Ecommerce Api service",
       description: "This ecommerce service api comes with product, category, and order management endpoints which the client browser can utilize.",
       tech: ["NextJs", "Java Springboot", "Postgres"],
       link: "https://github.com/kingsoo123/glamz_ecommerce_store",
-      rel:"noopener noreferrer"
     },
     {
       title: "CBT Application",
       description: "This product aims at engaging students to practise computer base test. With focus on early preparation for pupils in Primary and Junior secondary schools.",
       tech: ["NextJs", "Java Springboot", "Postgres", "PWA"],
       link: "#",
-      rel:"noopener noreferrer"
     },
     {
       title: "Book Management Library",
       description: "This product aims at managing books digitally, it’s main purpose it to ease the process of finding, sorting and searching for books in a library settings..",
       tech: ["JavaFX", "Java Springboot", "Postgres"],
       link: "#",
-      rel:"noopener noreferrer"
     },
     {
       title: "Fintech Dashboard",
       description: "Real-time data visualization for crypto assets.",
       tech: ["D3.js", "JSX", "Firebase"],
       link: "#",
-      rel:"noopener noreferrer"
     }
   ];
 
@@ -139,7 +134,7 @@ const Home = () => {
                   <span className="text-cyan-600 font-mono font-bold text-lg">/0{index + 1}</span>
                   <ExternalLink className="text-slate-300 group-hover:text-cyan-500 transition-colors" />
                 </div>
-                <a href={project.link} target='_blank' rel={project.rel}>
+                <a href={project.link} target='_blank'  rel="noopener noreferrer">
                   <h3 className="text-3xl font-black mb-4 group-hover:text-blue-600 transition-colors" >{project.title}</h3>
                 </a>
 
