@@ -9,42 +9,42 @@ const Home = () => {
       description: "This product aims at managing user auth token to prevent security loopholes.",
       tech: ["NextJs", "Java Springboot", "Postgres"],
       link: "#",
-      rel:"relationship-value"
+      rel:"noopener noreferrer"
     },
     {
       title: "AccountManager",
       description: "Banking API with role-based access and secure authentication and complete customer banking flow.",
       tech: ["NextJs", "Java Springboot", "Postgres"],
       link: "https://github.com/kingsoo123/Account-manager",
-      rel:"relationship-value"
+      rel:"noopener noreferrer"
     },
     {
       title: "Ecommerce Api service",
       description: "This ecommerce service api comes with product, category, and order management endpoints which the client browser can utilize.",
       tech: ["NextJs", "Java Springboot", "Postgres"],
       link: "https://github.com/kingsoo123/glamz_ecommerce_store",
-      rel:"relationship-value"
+      rel:"noopener noreferrer"
     },
     {
       title: "CBT Application",
       description: "This product aims at engaging students to practise computer base test. With focus on early preparation for pupils in Primary and Junior secondary schools.",
       tech: ["NextJs", "Java Springboot", "Postgres", "PWA"],
       link: "#",
-      rel:"relationship-value"
+      rel:"noopener noreferrer"
     },
     {
       title: "Book Management Library",
       description: "This product aims at managing books digitally, it’s main purpose it to ease the process of finding, sorting and searching for books in a library settings..",
       tech: ["JavaFX", "Java Springboot", "Postgres"],
       link: "#",
-      rel:"relationship-value"
+      rel:"noopener noreferrer"
     },
     {
       title: "Fintech Dashboard",
       description: "Real-time data visualization for crypto assets.",
       tech: ["D3.js", "JSX", "Firebase"],
       link: "#",
-      rel:"relationship-value"
+      rel:"noopener noreferrer"
     }
   ];
 
@@ -61,7 +61,7 @@ const Home = () => {
             Available for hire
           </span>
           <h1 className="text-5xl md:text-4xl font-light text-gray-300 mb-2">
-            I'm <span className="font-bold text-white">Kingsley Onyelo</span>
+            I&apos;m <span className="font-bold text-white">Kingsley Onyelo</span>
           </h1>
           <div className='h-[30px]' />
 
@@ -85,14 +85,14 @@ const Home = () => {
             <a
               href="/KINGSLEY_O.pdf" // Update this path to your actual file in the /public folder
               download="KINGSLEY_O.pdf"
-              rel="relationship-value"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 bg-white text-slate-900 px-8 py-3 rounded-full font-bold hover:bg-cyan-400 transition-colors shadow-lg"
             >
               <Download size={20} />
               Download CV (PDF)
             </a>
 
-            <a href="https://www.linkedin.com/in/kingsley-onyelo" target='_blank'>
+            <a href="https://www.linkedin.com/in/kingsley-onyelo" target='_blank' rel="noopener noreferrer">
               <button className="flex items-center gap-2 border border-slate-700 px-8 py-3 rounded-full font-bold hover:bg-slate-800 transition-colors">
                 <Mail size={20} />
                 Contact Me
